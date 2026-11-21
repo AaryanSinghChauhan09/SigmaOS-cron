@@ -6,6 +6,9 @@
 #![forbid(unsafe_code)]
 #![warn(missing_docs)]
 
+/// Cron scheduler module.
+pub mod sigmacron;
+
 /// Errors raised by this component.
 pub mod sigmacronmanager2;
 #[derive(Debug, thiserror::Error)]
